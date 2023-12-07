@@ -191,6 +191,32 @@ h1 {
  .container p {
     text-align: center;
  }
+
+
+ .central {
+    width: 100%;
+    overflow: hidden; /* Limpa o float */
+  }
+  
+  .pratosp {
+    width: calc(33.33% - 20px); /* Defina a largura de cada coluna */
+    float: left; /* Faz as colunas flutuarem ao lado umas das outras */
+    margin: 0 10px; /* Adicione margens para espaçamento entre as colunas */
+  }
+
+  .bebisob {
+    width: calc(33.33% - 20px); /* Defina a largura de cada coluna */
+    float: left; /* Faz as colunas flutuarem ao lado umas das outras */
+    margin: 0 10px; /* Adicione margens para espaçamento entre as colunas */
+  }
+
+
+  .coluna3 {
+    width: calc(33.33% - 20px); /* Defina a largura de cada coluna */
+    float: left; /* Faz as colunas flutuarem ao lado umas das outras */
+    margin: 0 10px; /* Adicione margens para espaçamento entre as colunas */
+  }
+  
   
 
 
